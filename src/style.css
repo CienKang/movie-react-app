@@ -1,0 +1,47 @@
+body {
+    background: #121212;
+    color: #ffffff;
+}
+
+
+.movie-app > .row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+.container {    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+}
+
+.container img {    
+  margin: 8px 20px 5px ;
+  transition: all .2s ease-in-out;
+}
+
+.container img:hover {
+      transform: scale(1.2);
+}
+
+.back-card{
+  /* background: rgb(25, 24, 24); */
+  background: #121212;
+  border: 1px yellow ;
+  align-items: stretch;
+}
+
+.image-set{
+  /* min-height: 450px;
+  max-height: 450px; */
+  height: 450px;
+  width: 300px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.movie-text {
+  width: 250px;
+  margin-bottom: 15px;
+}
